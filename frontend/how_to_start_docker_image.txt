@@ -1,0 +1,7 @@
+в папке где Dockerfile
+
+Собрать Docker image:
+docker build -t nikita-frontend .
+
+. Запустить контейнер:
+docker run -d -p 80:80 --name frontend-container nikita-frontend

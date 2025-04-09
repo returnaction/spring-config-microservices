@@ -14,6 +14,9 @@
     <modules>
         <!-- Здесь будут подмодули: config-server, user-service, api-gateway и т.д. -->
         <module>config-server</module>
+        <module>user-service</module>
+        <module>eureka-server</module>
+        <module>api-gateway</module>
     </modules>
 
     <properties>
