@@ -13,6 +13,7 @@
 
     <modules>
         <!-- Здесь будут подмодули: config-server, user-service, api-gateway и т.д. -->
+        <module>config-server</module>
     </modules>
 
     <properties>
