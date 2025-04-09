@@ -12,7 +12,8 @@ public class CorsConfig {
     @Bean
     public CorsWebFilter corsWebFilter() {
         CorsConfiguration config = new CorsConfiguration();
-        config.addAllowedOrigin("*"); // Разрешить все источники
+        config.setAllowCredentials(true);
+        config.addAllowedOrigin("http://localhost"); // Разрешить все источники
         config.addAllowedHeader("*"); // Все заголовки
         config.addAllowedMethod("*"); // Все методы
 
